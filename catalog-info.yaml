@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
+  name: card-web
+  description: The place to be, for great card players
   labels:
-    example.com/custom: custom_label_value
+    example.com/custom: card_label_value
   annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
+    example.com/service-discovery: cardplayersweb
+    circleci.com/project-slug: github/example-org/cardplayers-website
   tags:
     - java
   links:
